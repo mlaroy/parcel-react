@@ -1,8 +1,8 @@
 # parcel + react + tailwindcss
 
-##installation
+## installation
 - `git clone https://github.com/nynd/parcel-react`
-- `cd parcel-react'
+- `cd parcel-react`
 - `npm install`
 - `npm start`
 
