@@ -1,0 +1,24 @@
+{
+  "name": "parcel-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tailwind build index.tailwind.css -o ./src/index.css && parcel index.html",
+    "build": "tailwind build index.tailwind.css -o ./src/index.css && parcel build ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "tailwindcss": "^0.4.0"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
