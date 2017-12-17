@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <div className='font-sans container mx-auto'>
       <h1 className='text-center uppercase'>Counter</h1>
-        <div className='flex flex-col justify-center items-center h-screen'>
+        <div className='flex flex-col items-center  mt-8 h-screen'>
           <div className='flex flex-col justify-center items-center rounded overflow-hidden shadow-md h-64 w-64'>
             <h1 className='text-5xl text-center text-grey-dark'>
               {this.state.count}
